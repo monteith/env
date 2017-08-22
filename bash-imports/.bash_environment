@@ -1,0 +1,35 @@
+
+#   -------------------------------
+#   1.  ENVIRONMENT CONFIGURATION
+#   -------------------------------
+ 
+#   Change Prompt
+#   ------------------------------------------------------------
+    export PS1="\w @ \h(\u): "
+ 
+#   Set Paths
+#   ------------------------------------------------------------
+    export PATH="$PATH:/usr/local/bin/"
+#    export PATH="/Users/luke/Development/Android/android-sdk-macosx/platform-tools:/Users/luke/Development/Android/android-sdk-macosx/tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH"
+
+	export PATH=/Users/gmon/Library/Python/2.7/bin:$PATH
+ 
+#   Set Default Editor (change 'Vim' to the editor of your choice)
+#   ------------------------------------------------------------
+    export EDITOR=/usr/bin/vim
+ 
+#   Set default blocksize for ls, df, du
+#   from this: http://hints.macworld.com/comment.php?mode=view&cid=24491
+#   ------------------------------------------------------------
+    export BLOCKSIZE=1k
+ 
+#   Add color to terminal
+#   (this is all commented out as I use Mac Terminal Profiles)
+#   from http://osxdaily.com/2012/02/21/add-color-to-the-terminal-in-mac-os-x/
+#   ------------------------------------------------------------
+#   export CLICOLOR=1
+#   export LSCOLORS=ExFxBxDxCxegedabagacad
+ 
+    # To use Homebrew's directories rather than ~/.jenv add to your profile:
+    export JENV_ROOT=/usr/local/opt/jenv
+    export PATH="/usr/local/sbin:$PATH"
